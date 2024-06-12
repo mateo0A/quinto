@@ -1,0 +1,109 @@
+body{
+    background:linear-gradient(
+        50deg,
+        #000000 0%,
+        #3a273f 10%,
+        #521f61 20%,
+        #320746 30%,
+        #2b122e 40%
+    ) ;
+    color: white;
+    justify-content: center;
+    
+}
+@font-face {
+    font-family: titu;
+    src: url(/Arcade\ Classic.ttf);
+}
+h1{
+    
+    text-shadow: 0 0 10px rgb(172, 179, 172);
+    text-align: center;
+    font-family: titu;
+    font-size: 400%;
+}
+.b{
+    background-color: rgb(0, 0, 0);
+    width: 80%;
+    height: 10%;
+    position: relative;
+    margin: auto;
+    display: flex;
+    gap: 1%;
+    justify-content: center;
+}
+.btn:hover{
+    scale: 1.1;
+    background-color: #5f5959;
+}
+.btn{
+    position: relative;
+    transition-duration: 0.2s;
+    margin: auto;
+    height: 100%;
+    width: 40%;
+    text-align: center;
+}
+.cnt{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+    position: relative;
+    top: 30%;
+}
+.te{
+    width: 90%;
+    margin: auto;
+}
+@keyframes show{
+     0%{
+        transform: translateY(0);
+     }
+     50%{
+        transform: translateY(-10px);
+     }
+     100%{
+        transform: translateY(0);
+     }
+}
+img{
+    width: 20%;
+    height: 30%;
+    animation: show 2s linear infinite;
+}
+.bot{
+    font-size: 250%;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 10%;
+    transition-duration: 0.2s;
+    height: 20%;
+    position: relative;
+    padding: 5% 5%;
+    text-align: center;
+
+
+}
+a:hover{
+    scale: 1.2;
+    box-shadow: 0 0 5px white;
+}
+.ima{
+    display: flex;
+    gap: 4%;
+}
+@font-face {
+    font-family: subt;
+    src: url(/Romania.ttf);
+}
+h2{
+    font-family: subt;
+    font-size: 400%;
+
+}
+
+p{
+    font-size: 200%;
+}
